@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+.profile-photo img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 5px solid white;
+    margin-right: 20px;
+}
+.header-content {
+    flex-grow: 1;
+}
+.header-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.header-content p {
+    margin: 5px 0;
+}
+.section {
+    margin: 20px 0;
+}
+.section-title {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 -20px;
+    border-radius: 5px 5px 0 0;
+}
+.content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+.two-column .column {
+    width: 48%;
+}
+.skills .bar {
+    background-color: #ddd;
+    border-radius: 25px;
+    margin: 5px 0;
+}
+.skills .bar span {
+    display: block;
+    height: 15px;
+    border-radius: 25px;
+    background-color: #333;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
+h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+}
+p {
+    margin: 5px 0;
+}
